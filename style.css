@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: sans-serif;
+}
 /*  header 1 */
 .Mbem {
   border: 5px solid rgb(232, 224, 224);
@@ -11,13 +14,15 @@
   align-items: center;
   height: 10vh;
   padding: 0 30px;
-  /* margin-bottom: 10px; */
+   /* border: 1px solid red;   */
+   margin-bottom: 20px;
+ 
 }
 
-nav {
+.bas {
   width: 90%;
 }
-nav ul {
+.bas ul {
   display: flex;
   list-style: none;
   /* border: 1px solid red;  */
@@ -25,7 +30,7 @@ nav ul {
   justify-content: space-between;
   /* gap: 20 px;  */
 }
-nav ul li a {
+.bas ul li a {
   list-style: none;
   text-decoration: none;
   /* font-weight: bold; */
@@ -48,17 +53,29 @@ button {
   color: white;
   font-weight: bold;
   border: none;
+  display: flex;
+  align-items: center;
 }
 .btn1 {
   background-color: #23408d;
   border-radius: 20px;
+  gap: 2px;
+   /* border: 1px solid red;  */
+
 }
 .btn2 {
   background-color: #f4d316;
   border-radius: 20px;
+   gap: 2px;
+}
+.fleche  {
+display: flex;
+align-items: center;
+  
 }
 
-.btn1 svg {
+
+/* .btn1 svg {
   width: 40px;
   height: 20px;
   color: rgb(237, 237, 237);
@@ -66,13 +83,9 @@ button {
 .btn2 svg {
   width: 40px;
   height: 20px;
-  color: rgb(242, 241, 244);
-}
-.fleche svg {
-  width: 20px;
-  height: 10px;
-  color: rgb(12, 11, 11);
-}
+  color: rgb(242, 241, 244); 
+}  */
+
 
 /*  header 3 */
 
@@ -135,37 +148,33 @@ button {
 .nav2 {
   display: flex;
   align-items: center;
-  gap: 200px;
+  gap: 260px;
   padding: 8px 24px;
-  /* background: white; */
   /* border: 1px solid red; */
+  margin-bottom: 10px;
+  
 }
 
-.logo img {
-  width: 65px;
-  height: 65px;
-  object-fit: contain;
-  margin-left: 5rem;
-  margin-top: 10px;
-}
+.logo {
+  /* border: 5px solid red; */
+  margin-left: 80px;
+} 
 
-.lien {
+.lien ul {
   display: flex;
   align-items: center;
-  gap: 10px;
+  padding: 10px 20px;
+  gap: 30px;
   list-style: none;
   /* border: 1px solid red; */
+
 }
 .lien li a {
   display: flex;
   align-items: center;
-  gap: 3px;
   text-decoration: none;
   color: #A49DA0;
-  font-weight: 600;
-  font-size: 13.5px;
-  font-family: sans-serif;
-  /* white-space: nowrap; */
+
 }
 
 .lien li a:hover {
@@ -182,6 +191,9 @@ button {
   height: 20px;
   color: rgb(237, 237, 237);
 }
+.color{
+   color: #A49DA0;
+}
 
 .fleche svg {
   width: 20px;
@@ -189,4 +201,151 @@ button {
   color: #888;
 }
 
-/*  header 8 */
+/*  header devoir */
+.devoir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    background-color: #1F47C1;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    gap: 15px;
+    margin-left: 20px;
+}
+.titre{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.liste ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+      /* border: 1px solid rgb(77, 0, 128); */
+      gap: 35px;
+      margin-right: 50px;
+     padding: 10px 20px;
+}
+.liste ul a {
+    text-decoration: none;
+    color: white;
+}
+.btnd {
+    background-color:#DA2627;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/*  header 8*/
+
+.body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.africa {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 1rem;
+    background-color: #0559B2;
+    width: 100%;
+   
+}
+.debut {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 180px;
+    /* border: 5px solid red; */
+}
+.cmr2 {
+display: flex;
+align-items: center;
+gap: 2px;
+/* border: 5px solid red;  */
+}
+.cmr {
+    color: white;
+}
+.milieu{
+     /* border: 5px solid rgb(51, 0, 255);  */
+}
+.milieu ul {
+    display: flex;
+    align-items: center;
+    /* border: 3px solid green; */
+    list-style: none;
+    gap: 30px;
+}
+.milieu ul a {
+    text-decoration: none;
+    color: white;
+}
+.btngo{
+    background-color: #FEC530;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.btngo2 {
+ background: white;
+ color: rgba(0, 0,0, 0.2);
+ font-size: 17px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.icone {
+/* border:2px solid rgba(255, 255, 255, 0.2);
+background: transparent; */
+background: rgba(255, 255, 255, 0.1); ;
+padding: 5px 7px;
+border-radius: 50px;
+}
+.icone1 {
+ background: rgba(255, 255, 255, 0.1); ;
+padding: 7px 5px;
+
+}
+body{
+    margin: 0;
+}
+.filigramme {
+    position: relative;
+    min-height: calc(100vh- 80px);
+    background: #fff;
+    overflow: hidden;
+    height: 50vh;
+}
+/*pour mettre le fiigramme derriere tout le contenu*/
+.filigramme > *{
+    position: relative;
+    z-index: 2;
+}
+.fil {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.06);
+    z-index: 1;
+     
+
+}
+.m {
+    color: rgba(3, 71, 146, 0.1);
+}
+.n{
+    color:rgba(252, 202, 53, 0.1);
+}
+
